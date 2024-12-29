@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{cbd43701-d9d0-41ba-990c-78956d8b1fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Manger">
+      <UniqueIdentifier>{9e374c7b-f34a-4fad-b776-b9a03289a107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Camera">
+      <UniqueIdentifier>{0d24ebb7-eae1-4755-9edf-1b4c55b5b043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Object">
+      <UniqueIdentifier>{0110acc0-eb2f-4fb5-8f52-89dc8a0ef196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="System\Parameters">
+      <UniqueIdentifier>{6273be1c-d98b-4922-b24a-b3c58f6789bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utils">
+      <UniqueIdentifier>{cef508da-01b7-44bc-9e00-8724e5b898f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b03b7a9c-a26b-4d05-8acd-45a320fe6b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{adfa3662-5343-4c1b-a9ae-17eb419206f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ActorObject">
+      <UniqueIdentifier>{0bfce471-7632-4015-b671-8fc07633b0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Object\Particle">
+      <UniqueIdentifier>{9ea11e8d-90c0-447f-92c6-7a9df0e686a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ActorObject\Pawn">
+      <UniqueIdentifier>{4816ea1a-565d-4c4e-b45c-6ea2d5a36152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Object\Controller">
+      <UniqueIdentifier>{caf34d51-a072-48f3-a095-d0ea8d1c0ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\StateMachine">
+      <UniqueIdentifier>{39f28af5-a4df-4ed1-b775-e2067e25ffff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Widget">
+      <UniqueIdentifier>{bd0aeee6-f106-4689-9fa4-99de59a00b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Widget\Element">
+      <UniqueIdentifier>{a9d5d8f2-48d1-413e-a4e6-7646d859302d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{9374b1b6-51e2-44a6-b23d-3b74b973cca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Menu">
+      <UniqueIdentifier>{10d810de-25c7-45f8-b8eb-56935147fc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Widget\Element\Base">
+      <UniqueIdentifier>{5469f4d4-e976-4441-9f47-f8fccf9abef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\DataType">
+      <UniqueIdentifier>{cc08705f-2e51-4f0c-95a5-b3ae1a8e8407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ActorObject\Charactor">
+      <UniqueIdentifier>{ef9f489e-07d7-4d62-b939-c3c4f85db54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Charator">
+      <UniqueIdentifier>{c22bd0cc-7db5-4f69-bed4-1fbea08a656b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Charator\player">
+      <UniqueIdentifier>{9103d2ca-c0ab-4271-b3f9-fb66b14aa735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Charator\boss">
+      <UniqueIdentifier>{32bbae5f-4772-4936-8c64-8d5d13b227e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{9f253fee-5812-4de3-9f40-7790ab2989ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Player">
+      <UniqueIdentifier>{8a8302e2-3919-46df-b037-b9a2a7bd24d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Charator\boss\projectile">
+      <UniqueIdentifier>{5272db64-f4ac-4dd6-909a-df9297dda0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Charator\boss\Hornet">
+      <UniqueIdentifier>{b83f6995-5cb8-4f3f-a964-151c8b622c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Hornet">
+      <UniqueIdentifier>{81f74dd0-c40b-4b55-b290-fef6f2e37d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Player">
+      <UniqueIdentifier>{5ed2970e-63e8-4a1e-a0d5-dd9cbb7a3949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Hornet">
+      <UniqueIdentifier>{7ad0345c-2d7f-4357-8bfc-4ae15e411ee0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SceneManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Camera.cpp">
+      <Filter>System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\CollisionManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\AudioManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utils\helper.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\RenderManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\MainMenuScene.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ResourcesManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ActorObject.cpp">
+      <Filter>System\ActorObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ActorManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Particle.cpp">
+      <Filter>System\Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ParticleManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Pawn.cpp">
+      <Filter>System\ActorObject\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ControllerManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\StateMachine.cpp">
+      <Filter>System\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Controller.cpp">
+      <Filter>System\Object\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlayerController.cpp">
+      <Filter>System\Object\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\TestScene.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\UserWidget.cpp">
+      <Filter>System\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\WidgetManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ButtonWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\TestWidget.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\TextWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\TextButtonWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\ImageWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\TimerManager.cpp">
+      <Filter>System\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utils\Tool.cpp">
+      <Filter>System\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\BarWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\MainMenuWidget.cpp">
+      <Filter>Game\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\MenuWidget.cpp">
+      <Filter>Game\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\SliderBarWidget.cpp">
+      <Filter>System\Widget\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Level1.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Charactor.cpp">
+      <Filter>System\ActorObject\Charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlayerState.cpp">
+      <Filter>Game\Charator\player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Player.cpp">
+      <Filter>Game\Charator\player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\PlayerEffect.cpp">
+      <Filter>Game\Effect\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Sword.cpp">
+      <Filter>Game\Charator\boss\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\HornetState.cpp">
+      <Filter>Game\Charator\boss\Hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Barb.cpp">
+      <Filter>Game\Charator\boss\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\Hornet.cpp">
+      <Filter>Game\Charator\boss\Hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\HornetEffect.cpp">
+      <Filter>Game\Effect\Hornet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\WD_Player.cpp">
+      <Filter>Game\UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game\WD_Hornet.cpp">
+      <Filter>Game\UI\Hornet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Utils\Timer.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SceneManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Camera.h">
+      <Filter>System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Scene.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CollisionManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\CollisionBox.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\AudioManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\atlas.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\helper.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Animation.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\RenderItem.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\RenderManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Parameter\CollisionLayer.h">
+      <Filter>System\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Parameter\GlobeGameParameters.h">
+      <Filter>System\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\MainMenuScene.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ResourcesManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ImageInfo.h">
+      <Filter>System\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ActorObject.h">
+      <Filter>System\ActorObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ActorManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Particle.h">
+      <Filter>System\Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ParticleManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Pawn.h">
+      <Filter>System\ActorObject\Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Controller.h">
+      <Filter>System\Object\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ControllerManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\StateMachine.h">
+      <Filter>System\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\StateNode.h">
+      <Filter>System\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlayerController.h">
+      <Filter>System\Object\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\TestScene.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\UserWidget.h">
+      <Filter>System\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\WidgetManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ButtonWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\TestWidget.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\TextWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\TextButtonWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\ImageWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\TimerManager.h">
+      <Filter>System\Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\Tool.h">
+      <Filter>System\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\BarWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\MainMenuWidget.h">
+      <Filter>Game\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\WidgetElement.h">
+      <Filter>System\Widget\Element\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\MenuWidget.h">
+      <Filter>Game\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Vector2.h">
+      <Filter>System\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\JsonData.h">
+      <Filter>System\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\SliderBarWidget.h">
+      <Filter>System\Widget\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Level1.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Charactor.h">
+      <Filter>System\ActorObject\Charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlayerState.h">
+      <Filter>Game\Charator\player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Player.h">
+      <Filter>Game\Charator\player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\PlayerEffect.h">
+      <Filter>Game\Effect\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Sword.h">
+      <Filter>Game\Charator\boss\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\HornetState.h">
+      <Filter>Game\Charator\boss\Hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Barb.h">
+      <Filter>Game\Charator\boss\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\Hornet.h">
+      <Filter>Game\Charator\boss\Hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\HornetEffect.h">
+      <Filter>Game\Effect\Hornet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\WD_Player.h">
+      <Filter>Game\UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game\WD_Hornet.h">
+      <Filter>Game\UI\Hornet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

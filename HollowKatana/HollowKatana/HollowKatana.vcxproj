@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Game\AudioManager.cpp" />
+    <ClCompile Include="source\Game\Barb.cpp" />
+    <ClCompile Include="source\Game\BarWidget.cpp" />
+    <ClCompile Include="source\Game\ButtonWidget.cpp" />
+    <ClCompile Include="source\Game\Camera.cpp" />
+    <ClCompile Include="source\Game\Charactor.cpp" />
+    <ClCompile Include="source\Game\CollisionManager.cpp" />
+    <ClCompile Include="source\Game\ActorObject.cpp" />
+    <ClCompile Include="source\Game\ActorManager.cpp" />
+    <ClCompile Include="source\Game\Controller.cpp" />
+    <ClCompile Include="source\Game\Hornet.cpp" />
+    <ClCompile Include="source\Game\HornetEffect.cpp" />
+    <ClCompile Include="source\Game\HornetState.cpp" />
+    <ClCompile Include="source\Game\ImageWidget.cpp" />
+    <ClCompile Include="source\Game\Level1.cpp" />
+    <ClCompile Include="source\Game\MainMenuScene.cpp" />
+    <ClCompile Include="source\Game\MainMenuWidget.cpp" />
+    <ClCompile Include="source\Game\MenuWidget.cpp" />
+    <ClCompile Include="source\Game\Particle.cpp" />
+    <ClCompile Include="source\Game\ParticleManager.cpp" />
+    <ClCompile Include="source\Game\Pawn.cpp" />
+    <ClCompile Include="source\Game\ControllerManager.cpp" />
+    <ClCompile Include="source\Game\Player.cpp" />
+    <ClCompile Include="source\Game\PlayerController.cpp" />
+    <ClCompile Include="source\Game\PlayerEffect.cpp" />
+    <ClCompile Include="source\Game\PlayerState.cpp" />
+    <ClCompile Include="source\Game\RenderManager.cpp" />
+    <ClCompile Include="source\Game\ResourcesManager.cpp" />
+    <ClCompile Include="source\Game\SceneManager.cpp" />
+    <ClCompile Include="source\Game\SliderBarWidget.cpp" />
+    <ClCompile Include="source\Game\StateMachine.cpp" />
+    <ClCompile Include="source\Game\Sword.cpp" />
+    <ClCompile Include="source\Game\TestScene.cpp" />
+    <ClCompile Include="source\Game\TestWidget.cpp" />
+    <ClCompile Include="source\Game\TextButtonWidget.cpp" />
+    <ClCompile Include="source\Game\TextWidget.cpp" />
+    <ClCompile Include="source\Game\TimerManager.cpp" />
+    <ClCompile Include="source\Game\UserWidget.cpp" />
+    <ClCompile Include="source\Game\WD_Hornet.cpp" />
+    <ClCompile Include="source\Game\WD_Player.cpp" />
+    <ClCompile Include="source\Game\WidgetManager.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Utils\helper.cpp" />
+    <ClCompile Include="source\Utils\Tool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Game\Animation.h" />
+    <ClInclude Include="source\Game\atlas.h" />
+    <ClInclude Include="source\Game\AudioManager.h" />
+    <ClInclude Include="source\Game\Barb.h" />
+    <ClInclude Include="source\Game\BarWidget.h" />
+    <ClInclude Include="source\Game\ButtonWidget.h" />
+    <ClInclude Include="source\Game\Camera.h" />
+    <ClInclude Include="source\Game\Charactor.h" />
+    <ClInclude Include="source\Game\CollisionBox.h" />
+    <ClInclude Include="source\Game\CollisionManager.h" />
+    <ClInclude Include="source\Game\Controller.h" />
+    <ClInclude Include="source\Game\Hornet.h" />
+    <ClInclude Include="source\Game\HornetEffect.h" />
+    <ClInclude Include="source\Game\HornetState.h" />
+    <ClInclude Include="source\Game\ImageInfo.h" />
+    <ClInclude Include="source\Game\ActorObject.h" />
+    <ClInclude Include="source\Game\ActorManager.h" />
+    <ClInclude Include="source\Game\ImageWidget.h" />
+    <ClInclude Include="source\Game\JsonData.h" />
+    <ClInclude Include="source\Game\Level1.h" />
+    <ClInclude Include="source\Game\MainMenuScene.h" />
+    <ClInclude Include="source\Game\MainMenuWidget.h" />
+    <ClInclude Include="source\Game\MenuWidget.h" />
+    <ClInclude Include="source\Game\Particle.h" />
+    <ClInclude Include="source\Game\ParticleManager.h" />
+    <ClInclude Include="source\Game\Pawn.h" />
+    <ClInclude Include="source\Game\ControllerManager.h" />
+    <ClInclude Include="source\Game\Player.h" />
+    <ClInclude Include="source\Game\PlayerController.h" />
+    <ClInclude Include="source\Game\PlayerEffect.h" />
+    <ClInclude Include="source\Game\PlayerState.h" />
+    <ClInclude Include="source\Game\RenderItem.h" />
+    <ClInclude Include="source\Game\RenderManager.h" />
+    <ClInclude Include="source\Game\ResourcesManager.h" />
+    <ClInclude Include="source\Game\Scene.h" />
+    <ClInclude Include="source\Game\SceneManager.h" />
+    <ClInclude Include="source\Game\SliderBarWidget.h" />
+    <ClInclude Include="source\Game\StateMachine.h" />
+    <ClInclude Include="source\Game\StateNode.h" />
+    <ClInclude Include="source\Game\Sword.h" />
+    <ClInclude Include="source\Game\TestScene.h" />
+    <ClInclude Include="source\Game\TestWidget.h" />
+    <ClInclude Include="source\Game\TextButtonWidget.h" />
+    <ClInclude Include="source\Game\TextWidget.h" />
+    <ClInclude Include="source\Game\TimerManager.h" />
+    <ClInclude Include="source\Game\UserWidget.h" />
+    <ClInclude Include="source\Game\Vector2.h" />
+    <ClInclude Include="source\Game\WD_Hornet.h" />
+    <ClInclude Include="source\Game\WD_Player.h" />
+    <ClInclude Include="source\Game\WidgetElement.h" />
+    <ClInclude Include="source\Game\WidgetManager.h" />
+    <ClInclude Include="source\Parameter\CollisionLayer.h" />
+    <ClInclude Include="source\Parameter\GlobeGameParameters.h" />
+    <ClInclude Include="source\Utils\helper.h" />
+    <ClInclude Include="source\Utils\Timer.h" />
+    <ClInclude Include="source\Utils\Tool.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{59af94d4-6c9c-4ed7-8294-c615d68c5e9d}</ProjectGuid>
+    <RootNamespace>HollowKatana</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
